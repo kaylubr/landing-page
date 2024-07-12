@@ -15,7 +15,7 @@ button {
     background-color: #3882F6;
     border-radius: 8px;
     border: none;
-    padding: 10px 32px;
+    padding: 5px 20px;
     color: #f9faf8;
     font-weight: bold;
 }
@@ -143,7 +143,7 @@ li {
     color: #1f2937;
     gap: 1rem;
     align-items: flex-end;
-    padding: 150px 370px;
+    padding: 150px 330px;
 }
 
 #reference {
@@ -152,4 +152,58 @@ li {
 
 #quotes {
     font-style: italic;
+}
+
+/* Ads Section */
+
+.ads {
+    display: flex;
+    justify-content: center;
+}
+
+.ads-container .ads-right-container button {
+    border: 2px solid #e5e7eb;
+}
+
+.ads-container {
+    display: flex;
+    gap: 1rem;
+    background-color: #3882F6;
+    padding: 15px 70px;
+    border-radius: 8px;
+    margin: 100px 0px;
+}
+
+.ads-right-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.ads-left-container {
+    padding: 20px;
+}
+
+.ads-header {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.ads-text {
+    color: #e5e7eb;
+    margin: 5px 0px;
+}
+
+/* Footer Section */
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
 }
