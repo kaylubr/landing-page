@@ -3,8 +3,30 @@ body {
     padding: 0px;
 }
 
+.header, .content {
+    background-color: #1f2937;
+}
+
+h1 {
+    margin: 0px;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 32px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+p {
+    margin: 10px 0px;
+}
+
+/* Header */
 #logo {
-    width: 50px;
+    width: 36px;
     height: auto;
     flex-shrink: 0;
     padding: 5px;
@@ -12,10 +34,9 @@ body {
 
 .header {
     display: flex;
-    background-color: #1f2937;
     gap: 1rem;
     align-items: center;
-    padding: 8px 280px;
+    padding: 8px 370px;
 }
 
 .header-title {
@@ -36,7 +57,8 @@ ul {
     gap: 1.5rem;
 }
 
-ul li a{
+ul li a, 
+.hero-secondary{
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
@@ -44,4 +66,29 @@ ul li a{
 
 li {
     list-style-type: none;
+}
+
+/* Content/Hero Section */
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    padding: 120px 0px;
+}
+
+#hero-image {
+    width: 500px;
+    height: 300px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-container {
+   flex-basis: 500px;
 }
