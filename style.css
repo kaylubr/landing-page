@@ -111,23 +111,45 @@ li {
 
 .info-images-container {
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
     justify-content: center;
     align-items: center;
 }
 
 .image-box {
     flex-wrap: wrap;
-    flex-basis: 20px;
+    flex-basis: 30px;
 }
 
 .info-img {
-    width: 170px;
+    width: 200px;
     height: auto;
     border: 4px solid #3882F6;
     border-radius: 8px;
+    box-sizing: border-box;
 }
 
 #taycan {
-    height: 110px;
+    height: 136.25px;
+}
+
+/* Quotes Section */
+
+.quotes-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    gap: 1rem;
+    align-items: flex-end;
+    padding: 150px 370px;
+}
+
+#reference {
+    font-weight:bolder
+}
+
+#quotes {
+    font-style: italic;
 }
