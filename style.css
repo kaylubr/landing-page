@@ -92,3 +92,42 @@ li {
 .hero-container {
    flex-basis: 500px;
 }
+
+/* Information Section */
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 50px;
+}
+
+.info-images-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-box {
+    flex-wrap: wrap;
+    flex-basis: 20px;
+}
+
+.info-img {
+    width: 170px;
+    height: auto;
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+}
+
+#taycan {
+    height: 110px;
+}
